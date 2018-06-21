@@ -1,0 +1,5 @@
+.root{
+        -fx-background-image:url("../img/about/back.png");
+        -fx-background-radius: 6, 5;
+        -fx-background-insets: 0, 1;
+        }

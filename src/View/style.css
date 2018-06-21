@@ -1,0 +1,42 @@
+.root{
+        -fx-background-image:url("/img/about/maze_image.jpg");
+        -fx-background-radius: 6, 5;
+        -fx-background-insets: 0, 1;
+        }
+
+
+#lbl_1,#lbl_2,#lbl_3,#lbl_4{
+            -fx-font-family: "Tahoma", Times, serif;
+            -fx-font-size: 17;
+            -fx-padding: 1,1,1,1;
+            -fx-background-color: transparent;
+            -fx-text-fill: white;
+ }
+
+#maze_pane:hover{
+    -fx-background-color: rgba(178 , 223, 251, 0.8);
+}
+
+#menu{
+    -fx-background-color:
+        #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+            -fx-background-insets: 0,1,2;
+            -fx-background-radius: 3,2,1;
+            -fx-text-fill: black;
+            -fx-font-size: 14px;
+        }
+
+#btn_generateMaze:hover,#btn_solveMaze:hover{
+    -fx-background-color: #037cd5;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+    }
+
+#btn_generateMaze,#btn_solveMaze{
+   -fx-background-color: #85cbf8;
+}
